@@ -14,11 +14,14 @@
   brew install terraform
 
 # misc
-MAKE SURE TO Source your 'clouds.yaml' or 'openrc.sh' file before running terraform commands, to connect to openstack
-eg file : source openrc.sh
-
 
 cd terraform-openstack-sriov
+
+MAKE SURE TO Source your 'clouds.yaml' or 'openrc.sh' file before running terraform commands, to connect to openstack
+
+eg : source openrc.sh
+
+
 # INITIATE
   terraform init openstack/
 
